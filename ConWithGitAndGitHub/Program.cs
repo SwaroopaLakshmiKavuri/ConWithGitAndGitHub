@@ -11,6 +11,7 @@ namespace ConWithGitAndGitHub
         static void Main(string[] args)
         {
             Console.WriteLine("Hello To GitHub");
+            Person p = new Person { Id = 100, Name = "Roopa" };
             Console.Read();
         }
     }
